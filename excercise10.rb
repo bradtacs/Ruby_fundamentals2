@@ -12,3 +12,8 @@ students["cohort4"] = 43
 students.each do |k, v|
   puts "#{k} #{v} students"
 end
+
+#5 add 15%
+students.each do |k, v|
+  puts "#{k} #{v * 1.05} students"
+end
